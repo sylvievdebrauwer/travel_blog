@@ -5,22 +5,51 @@ body {
 }
 body h1 {
   font-family: "Playfair Display", serif;
-  font-weight: 700;
   color: #ffffff;
-  font-size: 100px;
   text-align: center;
+  font-weight: 700;
+  font-size: 100px;
 }
 body h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #77888f;
-  background-color: #541313;
+  color: #ffffff;
+  background-color: #003b49;
+  font-size: 60px;
   text-align: center;
 }
 body h3 {
   font-family: "Playfair Display", serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  font-style: italic;
+}
+body h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+}
+body h6 {
+  font-family: "Playfair Display", serif;
   font-weight: 100;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 21px;
   text-align: center;
+}
+body #scrolldown {
+  position: absolute;
+}
+body button {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+body button:hover {
+  background-color: #000;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
