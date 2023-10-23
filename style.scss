@@ -1,0 +1,48 @@
+/*fonts:*/
+$font-family-playfair: 'Playfair Display', serif;
+$font-family-raleway: 'Raleway', sans-serif;
+$font-weights: (
+    thin: 100,
+    light: 300,
+    regular: 400,
+    semibold: 600,
+    bold: 700,
+    extrabold: 800,
+  );
+
+/*colors:*/
+$darkred: #541313;
+$red: #79291f;
+$grey: #77888f; 
+$blue: #003b49;
+$darkblue: #0d2027;
+$white: #ffffff;
+$black: #000000;
+
+body {
+    background-color: $darkblue;
+
+    h1 {
+        font-family: $font-family-playfair;
+        font-weight: 700;
+        color: $white;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: $font-family-raleway;
+        font-weight: 700;
+        color: $grey;
+        background-color: #541313;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: $font-family-playfair;
+        font-weight: 100;
+        color: $white;
+        font-size: 24px;
+        text-align: center;
+    }
+}
