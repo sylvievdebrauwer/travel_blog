@@ -1,26 +1,40 @@
-/*fonts:*/
-$font-family-playfair: 'Playfair Display', serif;
-$font-family-raleway: 'Raleway', sans-serif;
-$font-weights: (
-    thin: 100,
-    light: 300,
-    regular: 400,
-    semibold: 600,
-    bold: 700,
-    extrabold: 800,
-  );
+@import "colors";
+@import "fonts";
 
-/*colors:*/
-$darkred: #541313;
-$red: #79291f;
-$grey: #77888f; 
-$blue: #003b49;
-$darkblue: #0d2027;
-$white: #ffffff;
-$black: #000000;
+
+.header {
+    height: 100vh;
+}
 
 body {
     background-color: $darkblue;
+
+    /*navigation bar CSS*/
+    .topnav {
+        background-color:$blue;
+        overflow: hidden;
+        opacity: 90%;
+
+
+        .topnav a {
+            float: left;
+            color:#003b49;
+            text-align: center;
+            padding: 0px;
+            text-decoration: none;
+            font-size: 18px;
+
+            &:hover {
+                background-color: #77888f;
+                color:#000;
+            }
+        }
+
+        .topnav a.active {
+            background-color: #79291f;
+            color:#ffffff;
+        }
+    }
 
     h1 {
         font-family: $font-family-playfair;
@@ -43,19 +57,31 @@ body {
         font-family: $font-family-playfair;
         font-weight: 300;
         color: $white;
-        font-size: 36px;
+        font-size: 32px;
         text-align: center;
         font-style: italic;
         text-transform: uppercase;
     }
 
-    h5 {
+    h4 {
         font-family: $font-family-playfair;
         font-weight: 300;
         color: $white;
-        font-size: 32px;
+        font-size: 28px;
         text-align: center;
     }
+
+    h5 {
+        font-family: $font-family-raleway;
+        font-weight: 400;
+        color: $white;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: underline;
+        font-style:normal;
+        text-transform: uppercase;
+    }
+
 
     h6 {
         font-family: $font-family-playfair;
