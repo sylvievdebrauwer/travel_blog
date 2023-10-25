@@ -45,6 +45,13 @@ body .navbar-nav .navbar-nav .nav-link:hover {
   background-color: white;
   color: white;
 }
+body p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  text-align: left;
+  color: #ffffff;
+  font-size: 18px;
+}
 body h1 {
   font-family: "Playfair Display", serif;
   color: #ffffff;
@@ -141,4 +148,18 @@ body .center_image {
   margin-top: 60px;
   margin-bottom: 50px;
   width: 50%;
+}
+body .container {
+  margin: auto;
+  width: 100vh;
+  padding: 10px;
+}
+body .flex-container {
+  margin-top: 70px;
+  display: flex;
+  align-content: space-between;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
 }/*# sourceMappingURL=style.css.map */
