@@ -18,25 +18,43 @@
 <body>
     <header class="vh-100 d-flex flex-column justify-content-center align-items-center">
         <!--NAVIGATION BAR-->
-        <div class="topnav fixed-top">
-            <h5 class="text-center">The  Travel  Chronicles</h5>
-            <a class="active" href="#home">HOME</a>
-            <a href="#news">News</a>
-            <a href="contact">contact</a>
-        </div>
+        <nav class="navbar sticky-top d-flex">
+            <div class="navbar-brand me-auto">
+              <h5 class="travel_chronicles m-5" a href="index.html">The Travel Chronicles</h5>
+            </div>
+            <button class="navbar-toggler"
+
+            type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="azores.html">Azores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+
+                </ul>
+            </div>
+          </nav>
 
         <!--LANDING PAGE-->
-        <div class="landing-page text-center">
-            <h3>Through time and space with<br> Sylvie de brauwer</h3>
-            <h1>Around the Azores Islands</h1>
-            <h6 style="text-align:center;">Ever wondered how Azores islanders <br>live their daily lives?</h6>
-                <div class="d-grid gap-2">
-                <button type="button" name="enter_journey" id="journey" class="btn btn-primary">Enter This Journey</button>
-                </div>
-            <h6 id="scrolldown text-align:center;">scroll down for more travels</h6>
+        <div class="landing-page text-center mx-auto mt-5">
+            <h3 class="m-2">Through time and space with<br> Sylvie de brauwer</h3>
+            <h1 class="m-5 mx-auto">Hopping for <br>Azores Secrets</h1>
+            <h6 style="text-align:center;" class="mt-3 mb-0 mx-auto p-2">Lost and Found in the Azores: <br>A Comically Mysterious Adventure</h6>
+                
+            <!--BUTTON-->
+                <a href="azores.html">
+                    <button type="button" name="enter_journey" id="enter_journey_btn" class="btn btn-sm mb-5 mt-0">Enter This Journey</button>
+                </a>
+
+            <h6 id="scrolldown">scroll down for more travels <br>▿</h6>
         </div>
     </header>
-    <nav> </nav>
+
     <footer></footer>
 </body>
 </html>
