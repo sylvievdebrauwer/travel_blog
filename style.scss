@@ -10,7 +10,8 @@ body {
     background-color: $darkblue;
 
     .background_image {
-        background-image: url(./images/azores/azores_1.jpg);
+        background-image: url(./images/azores/Naamloos.jpeg);
+        background-size: cover;
         max-width: 100%;
         height: auto;
         align-items: center;
@@ -19,7 +20,7 @@ body {
     /*navigation bar CSS*/
     .navbar {
         background-color: $darkblue;
-        opacity: 90%;
+        opacity: 80%;
         padding: 0px;
         width: 100vw;
         justify-content: right;
