@@ -109,9 +109,10 @@ h5 {
 
 h6 {
   font-family: "Playfair Display", serif;
-  font-weight: 100;
+  font-weight: 700;
   color: #ffffff;
-  font-size: 16spx;
+  font-size: 20px;
+  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -124,14 +125,14 @@ h6 {
 }
 
 #enter_journey_btn {
-  color: #77888f;
+  color: #ffffff;
   margin: 30px !important;
   background-color: none;
   border: 2px solid;
   border-color: #ffffff;
   box-shadow: 0px 0px 15px 3px #ffffff;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
 }
 #enter_journey_btn:hover {
@@ -229,6 +230,8 @@ footer {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
+  margin-top: auto;
+  padding: 10px 0;
 }
 
 .footer-text {
