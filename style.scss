@@ -9,6 +9,13 @@
 body {
     background-color: $darkblue;
 
+    .background_image {
+        background-image: url(./images/azores/azores_1.jpg);
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+        
+      }
     /*navigation bar CSS*/
     .navbar {
         background-color: $darkblue;
@@ -43,6 +50,10 @@ body {
             font-size: 18px;
             font-family: $font-family-raleway;
             font-weight: 400;
+
+            &:hover {
+                background-color: $darkred;
+            }
         }
     }
 
@@ -130,9 +141,9 @@ body {
         background-color: none;
         border: 2px solid;
         border-color:$white;
-        -webkit-box-shadow: 0px 0px 15px 3px #79291f;
-        -moz-box-shadow: 0px 0px 15px 3px #79291f;
-        box-shadow: 0px 0px 15px 3px #79291f;
+        -webkit-box-shadow: 0px 0px 15px 3px $white;
+        -moz-box-shadow: 0px 0px 15px 3px $white;
+        box-shadow: 0px 0px 15px 3px $white;
         font-family: $font-family-raleway;
         font-weight: 400;
         font-size: 18px;
@@ -232,9 +243,11 @@ body {
 
 
 footer {
-    background-color: $blue;
+    background-color: $red;
     color: $white;
     font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .footer-text {
@@ -242,7 +255,7 @@ footer {
 }
 
 #footer-btn:hover {
-    background-color: $red;
+    background-color: $darkred;
     color: $white;
     border-color: $darkred;
 }

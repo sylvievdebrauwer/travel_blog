@@ -9,6 +9,12 @@ body {
   background-color: #0d2027;
   /*navigation bar CSS*/
 }
+body .background_image {
+  background-image: url(./images/azores/azores_1.jpg);
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
 body .navbar {
   background-color: #0d2027;
   opacity: 90%;
@@ -39,6 +45,9 @@ body .navbar li.nav-item a {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+}
+body .navbar li.nav-item a:hover {
+  background-color: #541313;
 }
 
 p {
@@ -119,7 +128,7 @@ h6 {
   background-color: none;
   border: 2px solid;
   border-color: #ffffff;
-  box-shadow: 0px 0px 15px 3px #79291f;
+  box-shadow: 0px 0px 15px 3px #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -214,9 +223,11 @@ button:hover {
   }
 }
 footer {
-  background-color: #003b49;
+  background-color: #79291f;
   color: #ffffff;
   font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .footer-text {
@@ -224,7 +235,7 @@ footer {
 }
 
 #footer-btn:hover {
-  background-color: #79291f;
+  background-color: #541313;
   color: #ffffff;
   border-color: #541313;
 }/*# sourceMappingURL=style.css.map */
